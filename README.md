@@ -70,7 +70,7 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 | :-----------------------------: |
 
 | [HTML 5](https://www.w3schools.com/html/) |
-| [SASS](https://sass-lang.com/) |
+| [CSS3](https://www.w3schools.com/css/) |
 | [JavaScript ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
 
 </div>
@@ -107,7 +107,6 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 ## :boy: _Autor_
 
 <div align="center">
-
 
 <a href="https://github.com/Joaovitorsw">
  <img src="https://avatars.githubusercontent.com/u/86388366?s=400&u=d21331492a58a33c31dd248c2cac51f177622ae2&v=4"  width="100px;" alt="Profile Photo João Vitor Pereira dos Santos"/>
