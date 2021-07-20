@@ -6,10 +6,22 @@
   align-items: center;
   font-family: "Josefin Sans", sans-serif;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  margin-top: 60px;
 }
 .logo-content {
   display: flex;
+  position: absolute;
+  top: -21%;
+  left: -5%;
   padding: 40px;
+}
+.logo-image {
+  margin-top: 40px;
+  height: 20px;
 }
 .image-content {
   display: flex;
@@ -36,7 +48,7 @@
 .title-color {
   color: hsl(0, 6%, 24%);
   font-weight: 400;
-  font-size: 40px;
+  font-size: inherit;
 }
 .paragraph {
   color: #f8bfbf;
@@ -55,14 +67,18 @@
     #ee8c8c
   );
   border: transparent;
-  border-radius: 60%;
-  padding: 10px 20px 10px 20px;
-  position: absolute;
-  right: 20%;
+  border-radius: 28px;
+  text-align: center;
+  padding: 10px 32px 10px 32px;
+  position: relative;
+  top: 5px;
+  right: -24px;
   margin-top: 7px;
 }
 .icon-arrow {
-  margin-top: 3px;
+  margin-top: 6px;
+  width: 12px;
+  height: 15px;
 }
 .email-box {
   border: solid #f8bfbf;
@@ -72,9 +88,57 @@
   width: 230px;
   padding: 10px;
   outline: none;
+  margin-bottom: 40px;
 }
 ::placeholder {
   color: #f8bfbf;
 }
-@media screen and (min-width: 375px) {
+
+@media screen and (min-width: 1025px) {
+  .logo-content {
+    position: absolute;
+    top: -5%;
+    left: -215%;
+    height: auto;
+  }
+
+  .logo-image {
+    height: auto;
+  }
+  .title {
+    font-size: 70px;
+    letter-spacing: 15px;
+    text-align: left;
+  }
+
+  .main-image {
+    width: auto;
+    height: 600px;
+  }
+  .main-card {
+    top: 50%;
+    left: 50%;
+    margin-top: 0px;
+    transform: translate(50%, -50%);
+  }
+  .main-content {
+    margin-top: 100px;
+    margin-right: 300px;
+  }
+  .image-content {
+    flex-direction: row-reverse;
+  }
+  .email-box {
+    left: 0%;
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px;
+    outline: none;
+  }
+  .arrow-button {
+    position: relative;
+    top: 5px;
+    right: 15px;
+    margin-top: 7px;
+  }
 }
