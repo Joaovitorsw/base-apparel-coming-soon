@@ -9,30 +9,19 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-<<<<<<< HEAD
 
   margin-top: 60px;
-=======
->>>>>>> 7c04ca4254a147d392d33b958b000ffca38950c3
 }
 .logo-content {
   display: flex;
   position: absolute;
-<<<<<<< HEAD
   top: -21%;
   left: -5%;
-=======
-  top: -25%;
-  left: 2%;
->>>>>>> 7c04ca4254a147d392d33b958b000ffca38950c3
   padding: 40px;
 }
 .logo-image {
   margin-top: 40px;
-<<<<<<< HEAD
   height: 20px;
-=======
->>>>>>> 7c04ca4254a147d392d33b958b000ffca38950c3
 }
 .image-content {
   display: flex;
@@ -83,11 +72,7 @@
   padding: 10px 32px 10px 32px;
   position: relative;
   top: 5px;
-<<<<<<< HEAD
-  right: -30px;
-=======
-  right: -24px;
->>>>>>> 7c04ca4254a147d392d33b958b000ffca38950c3
+  right: 6px;
   margin-top: 7px;
 }
 .arrow-button.active {
@@ -101,25 +86,20 @@
 .email-box {
   border: solid #f19999;
   position: relative;
-  left: 15%;
+  left: 5%;
   margin-top: 10px;
   border-radius: 28px;
-  width: 230px;
+  width: 260px;
   padding: 10px;
   outline: none;
-<<<<<<< HEAD
   margin-bottom: 40px;
 }
 .email-box.active {
   border: 2px solid hsl(0, 93%, 68%);
-=======
-  margin-bottom: 20px;
->>>>>>> 7c04ca4254a147d392d33b958b000ffca38950c3
 }
 ::placeholder {
   color: #f19999;
 }
-<<<<<<< HEAD
 .icon-error {
   display: none;
 }
@@ -127,8 +107,8 @@
   display: block;
   position: absolute;
   z-index: 2;
-  bottom: 83px;
-  left: -550px;
+  bottom: 46px;
+  left: 200px;
 }
 .email-error {
   opacity: 0;
@@ -136,28 +116,22 @@
 .email-error.active {
   opacity: 1;
   font-size: 12px;
-  position: relative;
-  bottom: 6%;
-  left: 5%;
+  position: absolute;
+  bottom: 3%;
+  left: 10%;
   color: hsl(0, 93%, 68%);
 }
-=======
->>>>>>> 7c04ca4254a147d392d33b958b000ffca38950c3
 
 @media screen and (min-width: 1025px) {
   .logo-content {
     position: absolute;
     top: -5%;
     left: -215%;
-<<<<<<< HEAD
     height: auto;
   }
 
   .logo-image {
     height: auto;
-=======
-  
->>>>>>> 7c04ca4254a147d392d33b958b000ffca38950c3
   }
   .title {
     font-size: 70px;
@@ -170,15 +144,9 @@
     height: 600px;
   }
   .main-card {
-<<<<<<< HEAD
     top: 50%;
     left: 50%;
     margin-top: 0px;
-=======
-
-    top: 50%;
-    left: 50%;
->>>>>>> 7c04ca4254a147d392d33b958b000ffca38950c3
     transform: translate(50%, -50%);
   }
   .main-content {
@@ -198,11 +166,21 @@
   .arrow-button {
     position: relative;
     top: 5px;
-<<<<<<< HEAD
     right: 30px;
-=======
-    right: 15px;
->>>>>>> 7c04ca4254a147d392d33b958b000ffca38950c3
     margin-top: 7px;
+  }
+  .email-error.active {
+    opacity: 1;
+    font-size: 12px;
+    position: relative;
+    bottom: 6%;
+    left: 5%;
+  }
+  .icon-error.active {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    bottom: 83px;
+    left: -555px;
   }
 }
