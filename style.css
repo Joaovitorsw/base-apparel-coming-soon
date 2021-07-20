@@ -22,6 +22,7 @@
 .logo-image {
   margin-top: 40px;
   height: 20px;
+  user-select: none;
 }
 .image-content {
   display: flex;
@@ -33,6 +34,7 @@
 .main-image {
   width: auto;
   height: auto;
+  user-select: none;
 }
 
 .title {
@@ -93,6 +95,7 @@
   padding: 10px;
   outline: none;
   margin-bottom: 40px;
+  user-select: none;
 }
 .email-box.active {
   border: 2px solid hsl(0, 93%, 68%);
@@ -102,16 +105,18 @@
 }
 .icon-error {
   display: none;
+  user-select: none;
 }
 .icon-error.active {
   display: block;
   position: absolute;
   z-index: 2;
-  bottom: 46px;
+  bottom: 4px;
   left: 200px;
 }
 .email-error {
   opacity: 0;
+  user-select: none;
 }
 .email-error.active {
   opacity: 1;
@@ -162,12 +167,14 @@
     width: 300px;
     padding: 10px;
     outline: none;
+    user-select: none;
   }
   .arrow-button {
     position: relative;
     top: 5px;
     right: 30px;
     margin-top: 7px;
+    user-select: none;
   }
   .email-error.active {
     opacity: 1;
@@ -180,7 +187,7 @@
     display: block;
     position: absolute;
     z-index: 2;
-    bottom: 83px;
+    bottom: 80px;
     left: -555px;
   }
 }
