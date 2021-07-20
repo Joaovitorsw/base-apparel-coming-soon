@@ -51,7 +51,7 @@
   font-size: inherit;
 }
 .paragraph {
-  color: #f8bfbf;
+  color: #f19999;
   font-weight: 400;
   width: 350px;
   text-align: center;
@@ -72,8 +72,11 @@
   padding: 10px 32px 10px 32px;
   position: relative;
   top: 5px;
-  right: -24px;
+  right: -30px;
   margin-top: 7px;
+}
+.arrow-button.active {
+  box-shadow: 0px 0px 2px 2px hsl(0, 93%, 68%);
 }
 .icon-arrow {
   margin-top: 6px;
@@ -81,17 +84,42 @@
   height: 15px;
 }
 .email-box {
-  border: solid #f8bfbf;
+  border: solid #f19999;
   position: relative;
   left: 15%;
   margin-top: 10px;
+  border-radius: 28px;
   width: 230px;
   padding: 10px;
   outline: none;
   margin-bottom: 40px;
 }
+.email-box.active {
+  border: 2px solid hsl(0, 93%, 68%);
+}
 ::placeholder {
-  color: #f8bfbf;
+  color: #f19999;
+}
+.icon-error {
+  display: none;
+}
+.icon-error.active {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  bottom: 83px;
+  left: -550px;
+}
+.email-error {
+  opacity: 0;
+}
+.email-error.active {
+  opacity: 1;
+  font-size: 12px;
+  position: relative;
+  bottom: 6%;
+  left: 5%;
+  color: hsl(0, 93%, 68%);
 }
 
 @media screen and (min-width: 1025px) {
@@ -138,7 +166,7 @@
   .arrow-button {
     position: relative;
     top: 5px;
-    right: 15px;
+    right: 30px;
     margin-top: 7px;
   }
 }
