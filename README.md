@@ -56,13 +56,13 @@ Deploy do front-end efetuado no [Netlify](https://www.netlify.com/) para visuali
 
 <div align="center">
 
-Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0) <img style="margin-bottom:-10px" src="images/favicon-32x32.png">
+Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0) <img style="margin-bottom:-12px" src="images/favicon-32x32.png">
 
 ---
 
 </div>
 
-## :hammer*and_wrench: \_Tecnologias*
+## 🛠️ _*Tecnologias*_
 
 <div align="center">
 
@@ -96,8 +96,8 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 
 <div align="center">
 
-|   :page_facing_up:    |
-| :-------------------: |
+|       :page_facing_up:       |
+| :--------------------------: |
 | Validar um endereço de email |
 
 </div>
@@ -108,8 +108,14 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 
 <div align="center">
 
+<style>
+  .autor-imagen { 
+    border-radius:100%;
+  }
+  </style>
+
 <a href="https://github.com/Joaovitorsw">
- <img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/86388366?s=400&u=d21331492a58a33c31dd248c2cac51f177622ae2&v=4"  width="100px;" alt="Profile Photo João Vitor Pereira dos Santos"/>
+ <img class="autor-imagen" src="https://avatars.githubusercontent.com/u/86388366?s=400&u=d21331492a58a33c31dd248c2cac51f177622ae2&v=4"  width="100px;" alt="Profile Photo João Vitor Pereira dos Santos"/>
  <br/>
  <sub><b>João Vitor Pereira dos Santos</b></sub>
 </a>
@@ -124,7 +130,7 @@ Desenvolvido com ❤️ por João Vitor Pereira dos Santos 👋🏽 Meus Contato
 
 ---
 
-## :balance*scale: \_Licença*
+## ⚖️ _Licença_
 
 <div align="center">
 
