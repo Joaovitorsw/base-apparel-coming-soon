@@ -56,7 +56,7 @@ Deploy do front-end efetuado no [Netlify](https://www.netlify.com/) para visuali
 
 <div align="center">
 
-Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0) <img style="margin-bottom:-12px" src="images/favicon-32x32.png">
+Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0) <img height="20px" src="images/favicon-32x32.png">
 
 ---
 
