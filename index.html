@@ -9,40 +9,42 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
-    <div class="main-card">
-      <div class="logo-content">
-        <img src="images/logo.svg" alt="logo" class="logo-image" />
-      </div>
-        <picture class="image-content">
-          <source
-            media="(max-width: 675px )"
-            srcset="images/hero-mobile.jpg"
-          />
-          <img
-            src="images/hero-desktop.jpg"
-            alt="main-image"
-            class="main-image"
-          />
-      <div class="main-content">
-        <h1 class="title">
-          We're <span class="title-color"><br>coming<br> soon</span>
-        </h1>
-        <p class="paragraph">
-          Hello fellow shoppers! We're currently building our new fashion store.
-          Add your email below to stay up-to-date with announcements and our
-          launch deals.
-        </p>
-        <img src="images/icon-error.svg" alt="icon-error" class="icon-error "><input type="text" placeholder="Email Address" class="email-box "/><button class="arrow-button ">
-        <img src="images/icon-arrow.svg" alt="icon-arrow" class="icon-arrow" />
+    <header class="logo-content">
+      <img src="images/logo.svg" alt="logo" class="logo-image" />
+    </header>
+    <div class="background-image"></div>
+    <div class="text-content">
+      <h1 class="title">We're<span class="title-color">coming soon</span></h1>
+      <p class="paragraph">
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with annoSuncements and our
+        launch deals.
+      </p>
+    </div>
+    <div class="email-content">
+      <div class="email-input">
+        <input type="text" placeholder="Email Address" class="email-box" />
+        <button class="submit-email">
+          <img src="images/icon-arrow.svg" alt="icon-arrow" />
         </button>
-         <span class="email-error ">Please provide a  valide email</span>
+      </div>
+      <div class="error-notification">
+        <span class="email-error">Please provide a valide email</span>
+        <img src="images/icon-error.svg" alt="icon-error" class="icon-error" />
       </div>
     </div>
+
     <script src="email-box.js"></script>
   </body>
 </html>
