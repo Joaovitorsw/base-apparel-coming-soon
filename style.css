@@ -97,3 +97,76 @@
   left: -50px;
 }
 
+@media screen and (min-width: 800px) {
+  body {
+    display: grid;
+
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 10vh 90vh;
+    grid-template-areas:
+      "logo bg-img"
+      "text-content bg-img";
+  }
+
+  .text-content {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0;
+    padding-top: 0px;
+    margin-top: 150px;
+
+    align-items: flex-start;
+    grid-area: text-content;
+  }
+  .logo-image {
+    margin-left: 100px;
+    height: 30px;
+    width: 150px;
+  }
+  .logo-content {
+    padding: 0;
+    padding-top: 50px;
+    grid-area: logo;
+  }
+
+  .title {
+    text-align: start;
+    font-size: 70px;
+  }
+  .paragraph {
+    text-align: start;
+    font-size: 15px;
+    margin: 0;
+    max-width: 400px;
+  }
+  .background-image {
+    background-image: url(images/hero-desktop.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    max-height: unset;
+    grid-area: bg-img;
+  }
+  .email-box {
+    margin-left: -5px;
+    
+  }
+  .email-input {
+    padding: 20px;
+    
+    padding-right: 120px;
+  }
+  .submit-email {
+    left: -45px;
+    width: 140px;
+  }
+  .icon-error {
+    margin-top: 17px;
+    left: -60px;
+  }
+  .email-error {
+    margin-left: 10px;
+  }
+}
