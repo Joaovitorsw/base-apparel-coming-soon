@@ -22,7 +22,7 @@
     <img alt="Developed by João Vitor" src="https://img.shields.io/badge/Developer-João_Vitor-%3498db?color=3498db&style=for-the-badge&label=Desenvolvedor">
   </a>  
   <img alt="Project License" src="https://img.shields.io/apm/l/vim-mode?style=for-the-badge&label=licen%C3%A7a"/>   
-   <img alt="Project Status" src="https://img.shields.io/badge/Em Progresso-%3498db?color=yellow&style=for-the-badge&label=Status">  
+   <img alt="Project Status" src="https://camo.githubusercontent.com/e1242aef6552b4e9b2d6764e66eb55f29758cb1e6d332b74efa89b3144339b25/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e636c75c3ad646f2d253334393864623f636f6c6f723d677265656e267374796c653d666f722d7468652d6261646765266c6162656c3d537461747573">  
   
 </p>
 

@@ -62,13 +62,15 @@
 .email-input {
   padding: 10px;
   padding-right: 120px;
+  height: 40px;
   width: 100%;
   border-radius: 28px 0px 0px 28px;
-  transition: border 0.5s linear;
+  transition: border 0.5s linear, height 1s;
   border: 1px var(--primary-color) solid;
 }
 .email-input.active {
   border: 1.5px solid red;
+  height: 44px;
 }
 ::placeholder {
   color: var(--primary-color);
@@ -81,8 +83,9 @@
   position: relative;
   outline: none;
   left: -41px;
-  top: 0.3px;
+  top: -2px;
   width: 100px;
+
   border-radius: 28px;
   border: transparent;
   background-image: linear-gradient(135deg, var(--gardient-color-primary));
@@ -102,7 +105,7 @@
   position: relative;
   width: min-content;
   height: min-content;
-  margin-top: 12px;
+  margin-top: 10px;
   left: -50px;
   opacity: 0;
   transition: opacity 1s;
@@ -181,7 +184,8 @@
     border: 1.5px solid red;
   }
   .submit-email {
-    left: -46px;
+    top: -0.5px;
+    left: -50px;
     width: 140px;
     outline: none;
     transition: border 0.5s linear;
@@ -192,7 +196,7 @@
   .icon-error {
     opacity: 0;
     transition: opacity 1s;
-    margin-top: 17px;
+    margin-top: 10px;
     left: -60px;
   }
   .icon-error.active {
