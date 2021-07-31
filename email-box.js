@@ -1,32 +1,36 @@
-const $emailBox = document.querySelector(".email-box");
+const $emailInput = document.querySelector(".email-input");
 const $emailError = document.querySelector(".email-error");
 const $iconError = document.querySelector(".icon-error");
-const $arrowButton = document.querySelector(".arrow-button");
-
-$arrowButton.addEventListener("click", validateEmail);
+const $submitEmail = document.querySelector(".submit-email");
+const mailPatern =
+  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+$submitEmail.addEventListener("click", validateEmail);
 
 function validateEmail() {
-  const mailformat =
-    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-  const inputText = $emailBox.value;
+  const inputText = $emailInput.value;
 
-  if (inputText.match(mailformat)) {
-    $emailBox.value = "";
-    emailIsValide();
+  if (mailPatern.test(inputText)) {
+    $emailInput.value = "";
+    removeErrorMessage();
   } else {
-    emailErrorNotification();
+    setErrorMessage();
   }
 }
 
-function emailErrorNotification() {
-  $emailBox.classList.add("active");
-  $emailError.classList.add("active");
-  $iconError.classList.add("active");
-  $arrowButton.classList.add("active");
+function activeClass($element, status) {
+  $element.classList.add(status);
 }
-function emailIsValide() {
-  $emailBox.classList.remove("active");
-  $emailError.classList.remove("active");
-  $iconError.classList.remove("active");
-  $arrowButton.classList.remove("active");
+function removeClass($element, status) {
+  $element.classList.remove(status);
+}
+
+function setErrorMessage() {
+  [$emailInput, $emailError, $iconError, $submitEmail].forEach(($element) => {
+    activeClass($element, "active");
+  });
+}
+function removeErrorMessage() {
+  [$emailInput, $emailError, $iconError, $submitEmail].forEach(($element) => {
+    removeClass($element, "active");
+  });
 }
