@@ -64,18 +64,25 @@
   padding-right: 120px;
   width: 100%;
   border-radius: 28px 0px 0px 28px;
+  transition: border 0.5s linear;
   border: 1px var(--primary-color) solid;
 }
-
+.email-input.active {
+  border: 1.5px solid red;
+}
 ::placeholder {
   color: var(--primary-color);
   font-family: "Josefin Sans", sans-serif;
+  width: min-content;
 }
 .submit-email {
   padding: 10px;
+  transition: border 0.5s linear;
   position: relative;
-  left: -45px;
-  width: 60px;
+  outline: none;
+  left: -41px;
+  top: 0.3px;
+  width: 100px;
   border-radius: 28px;
   border: transparent;
   background-image: linear-gradient(135deg, var(--gardient-color-primary));
@@ -88,13 +95,26 @@
   margin-left: 45px;
   font-size: 12px;
   color: red;
+  opacity: 0;
+  transition: opacity 1s;
 }
 .icon-error {
   position: relative;
   width: min-content;
   height: min-content;
-  margin-top: 10px;
+  margin-top: 12px;
   left: -50px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.icon-error.active {
+  opacity: 1;
+}
+.submit-email.active {
+  border: 1.8px solid red;
+}
+.email-error.active {
+  opacity: 1;
 }
 
 @media screen and (min-width: 800px) {
@@ -171,9 +191,9 @@
   }
   .icon-error {
     opacity: 0;
+    transition: opacity 1s;
     margin-top: 17px;
     left: -60px;
-    transition: opacity 1s;
   }
   .icon-error.active {
     opacity: 1;
