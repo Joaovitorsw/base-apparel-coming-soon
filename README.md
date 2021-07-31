@@ -62,7 +62,7 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 
 </div>
 
-## 🛠️ _*Tecnologias*_
+## :hammer_and_wrench: _Tecnologias_
 
 <div align="center">
 
@@ -124,7 +124,7 @@ Desenvolvido com ❤️ por João Vitor Pereira dos Santos 👋🏽 Meus Contato
 
 ---
 
-## ⚖️ _Licença_
+## :balance_scale: _Licença_
 
 <div align="center">
 
