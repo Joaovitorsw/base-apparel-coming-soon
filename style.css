@@ -154,21 +154,26 @@
     padding: 20px;
     outline: none;
     padding-right: 120px;
+    border: var(--primary-color) 1px solid;
+    transition: border 0.5s linear;
   }
   .email-input.active {
     border: 1.5px solid red;
   }
   .submit-email {
-    left: -45px;
+    left: -46px;
     width: 140px;
+    outline: none;
+    transition: border 0.5s linear;
   }
   .submit-email.active {
-    border: 1px solid red;
+    border: 1.8px solid red;
   }
   .icon-error {
     opacity: 0;
     margin-top: 17px;
     left: -60px;
+    transition: opacity 1s;
   }
   .icon-error.active {
     opacity: 1;
@@ -176,6 +181,7 @@
   .email-error {
     margin-left: 10px;
     opacity: 0;
+    transition: opacity 1s;
   }
   .email-error.active {
     opacity: 1;
