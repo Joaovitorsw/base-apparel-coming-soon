@@ -52,7 +52,7 @@ Deploy do front-end efetuado no [Netlify](https://www.netlify.com/) para visuali
   
 ---
 
-## :information_source: Sobre
+## :information_source: _Sobre_
 
 <div align="center">
 
