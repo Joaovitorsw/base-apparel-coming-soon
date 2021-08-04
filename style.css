@@ -185,6 +185,7 @@
   }
   .submit-email {
     height: 45px;
+    top: -1px;
     left: -50px;
     max-width: 140px;
     outline: none;
