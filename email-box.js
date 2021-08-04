@@ -2,15 +2,27 @@ const $emailInput = document.querySelector(".email-input");
 const $emailError = document.querySelector(".email-error");
 const $iconError = document.querySelector(".icon-error");
 const $submitEmail = document.querySelector(".submit-email");
-const mailPatern =
-  /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-$submitEmail.addEventListener("click", validateEmail);
+const mailPatern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+$submitEmail.addEventListener("click", submitEmail);
+$emailInput.addEventListener("input", ($text) => validateEmail($text));
+document.addEventListener("keypress", function (key) {
+  if (key.key === "Enter") {
+    submitEmail();
+  }
+});
+
+function submitEmail() {
+  const inputText = $emailInput.value;
+  if (mailPatern.test(inputText)) {
+    $emailInput.value = "";
+  }
+}
 
 function validateEmail() {
   const inputText = $emailInput.value;
 
   if (mailPatern.test(inputText)) {
-    $emailInput.value = "";
     removeErrorMessage();
   } else {
     setErrorMessage();
