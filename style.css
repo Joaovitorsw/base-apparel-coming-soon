@@ -61,9 +61,9 @@
 }
 .email-input {
   padding: 10px;
-  padding-right: 120px;
   height: 40px;
   width: 100%;
+  max-width: 320px;
   border-radius: 28px 0px 0px 28px;
   transition: border 0.5s linear, height 1s;
   border: 1px var(--primary-color) solid;
@@ -184,9 +184,9 @@
     border: 1.5px solid red;
   }
   .submit-email {
-    top: -0.5px;
+    height: 45px;
     left: -50px;
-    width: 140px;
+    max-width: 140px;
     outline: none;
     transition: border 0.5s linear;
   }
