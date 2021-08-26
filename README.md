@@ -81,12 +81,23 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 
 <div align="center">
 
-| :page_facing_up: |
-| :--------------: |
-|     Flexbox      |
-|     Position     |
-|   MediaQuerry    |
-|  EventListiner   |
+|  :page_facing_up:  |
+| :----------------: |
+|    Mobile First    |
+|     HTML Class     |
+|     CSS Class      |
+|      Position      |
+|  Background Image  |
+|  Pseudo Selectors  |
+|   CSS Box Model    |
+|  Size Properties   |
+|      Flexbox       |
+|     MediaQuery     |
+|    Atomic Comit    |
+| Element visibility |
+|   Regex Pattern    |
+|      Callback      |
+|        Grid        |
 
 </div>
 
