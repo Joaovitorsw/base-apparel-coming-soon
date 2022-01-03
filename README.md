@@ -68,7 +68,6 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 
 | :globe_with_meridians: FrontEnd |
 | :-----------------------------: |
-
 | [HTML 5](https://www.w3schools.com/html/) |
 | [CSS3](https://www.w3schools.com/css/) |
 | [JavaScript ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
